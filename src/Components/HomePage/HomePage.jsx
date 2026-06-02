@@ -5,8 +5,8 @@ const HomePage = () => {
     <>
       <h2>Select the Problem</h2>
       <div className='problemTabBody'>
-        <Link to='/tab'className="problemTabs">Tab And Modal</Link>
-        <Link to='/'className="problemTabs">Infinite Scroll</Link>
+        <Link to='/tabandmodal'className="problemTabs">Tab And Modal</Link>
+        <Link to='/infinitescroll'className="problemTabs">Infinite Scroll</Link>
       </div>
     </>
   );
