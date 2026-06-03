@@ -7,11 +7,6 @@
     border-radius: 3px;
 }
 
-h3 {
-    color: brown;
-    text-align: center;
-}
-
 .tabs {
     display: flex;
     justify-content: center;

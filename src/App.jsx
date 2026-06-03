@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import TabAndModal from "./Components/TabAndModal/TabAndModal";
 import HomePage from "./Components/HomePage/HomePage";
 import InfiniteScroll from "./Components/InfiniteScroll/InfiniteScroll";
+import "./App.css";
 
 const App = () => {
   return (
