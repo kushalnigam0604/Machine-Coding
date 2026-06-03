@@ -1,0 +1,56 @@
+.todoBody{
+    border: 1px solid;
+    border-radius: 3px;
+    width: 50%;
+    margin: auto;
+}
+.todoInput{
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+    font-size: large;
+}
+.todoAddBtn{
+    width: 20%;
+    color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+    font-weight: bold;
+}
+.todoList{
+    margin: 5px;
+}
+.todoListItem{
+    margin: 15px;
+}
+.todoCheckbox{
+    margin-right: 5px;
+}
+.crossText{
+    text-decoration: line-through;
+    color: red;
+}
+.editSpanTodo{
+    background-color: rgb(71, 66, 66);
+    color: antiquewhite;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+.editSpanTodo:hover{
+    background-color: rgb(112, 108, 108);
+}
+.deleteSpanTodo{
+    background-color: brown;
+    color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+.deleteSpanTodo:hover{
+    background-color: rgb(205, 65, 65);
+}
