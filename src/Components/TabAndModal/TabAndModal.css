@@ -34,6 +34,7 @@
     display: inline;
     color: rgb(2, 206, 2);
     cursor: pointer;
+    border: 1px solid;
 }
 
 .modalButton:hover {
@@ -51,12 +52,12 @@
     align-content: space-between;
 }
 
-button {
+.modalCloseButton {
     width: 30%;
     background-color: green;
     cursor: pointer;
 }
 
-button:hover {
+.modalCloseButton:hover {
     background-color: rgb(1, 159, 1);
 }

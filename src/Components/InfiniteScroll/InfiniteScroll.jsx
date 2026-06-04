@@ -41,7 +41,7 @@ const InfiniteScroll = () => {
         {photoData?.map((item, index) => {
           return (
             <div className="infiniteScrollData" key={index}>
-              <img src={item.download_url} alt="" />
+              <img className="infiniteScrollImg" src={item.download_url} alt="" />
               <p>{item?.author}</p>
             </div>
           );

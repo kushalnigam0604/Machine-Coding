@@ -9,6 +9,7 @@ const HomePage = () => {
         <Link to='/infinitescroll'className="problemTabs">Infinite Scroll</Link>
         <Link to='/todo'className="problemTabs">Todo App</Link>
         <Link to='/progressbar'className="problemTabs">Progress Bar</Link>
+        <Link to='/carousel'className="problemTabs">Image Carousel</Link>
       </div>
     </>
   );

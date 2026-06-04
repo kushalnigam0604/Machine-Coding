@@ -18,7 +18,7 @@ const Modals = () => {
       {open ? (
         <div className="modal">
           Modal is open.
-          <button onClick={() => handleCloseModal()}>Close Modal</button>
+          <button className="modalCloseButton" onClick={() => handleCloseModal()}>Close Modal</button>
         </div>
       ) : null}
     </>
