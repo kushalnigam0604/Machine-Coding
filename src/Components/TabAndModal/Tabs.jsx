@@ -12,7 +12,7 @@ const Tabs = () => {
   };
   return (
     <>
-      <h3>Tab Section</h3>
+      <h2>Tab Section</h2>
       <div className="tabs">
         {tabsData.map((item, index) => {
           return (

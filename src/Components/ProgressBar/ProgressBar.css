@@ -1,0 +1,24 @@
+.progressBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toggleBtn{
+    width: 10%;
+    border-radius: 3px;
+    color: antiquewhite;
+    margin: 5px;
+}
+.primaryBar{
+    width: 50%;
+    border: 1px solid;
+    border-radius: 8px;
+    height: 20px;
+    overflow: hidden;
+    
+}
+.secondaryBar{
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;
+}

@@ -8,6 +8,7 @@ const HomePage = () => {
         <Link to='/tabandmodal'className="problemTabs">Tab And Modal</Link>
         <Link to='/infinitescroll'className="problemTabs">Infinite Scroll</Link>
         <Link to='/todo'className="problemTabs">Todo App</Link>
+        <Link to='/progressbar'className="problemTabs">Progress Bar</Link>
       </div>
     </>
   );

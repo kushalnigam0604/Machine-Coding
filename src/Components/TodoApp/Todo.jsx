@@ -48,7 +48,7 @@ const Todo = () => {
         🔙 Back to Home Page.
       </Link>
       <div className="todoBody">
-        <h3>Todo App</h3>
+        <h2>Todo App</h2>
         <div>
           <input
             className="todoInput"

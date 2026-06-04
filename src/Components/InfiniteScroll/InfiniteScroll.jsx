@@ -37,7 +37,7 @@ const InfiniteScroll = () => {
       </Link>
 
       <div className="infiniteScrollBody">
-        <h3>Infinite Scroll</h3>
+        <h2>Infinite Scroll</h2>
         {photoData?.map((item, index) => {
           return (
             <div className="infiniteScrollData" key={index}>

@@ -11,7 +11,7 @@ const Modals = () => {
 
   return (
     <>
-      <h3>Modal Section</h3>
+      <h2>Modal Section</h2>
       <div className="modalButton" onClick={() => handleOpenModal()}>
         Open Modal
       </div>
